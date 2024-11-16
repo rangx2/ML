@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "titanic-analysis"
+version = "0.1.0"
+description = "타이타닉 데이터셋 분석"
+authors = ["김하랑 <2022101473@syuin.ac.kr>"]
+dependencies = [
+    "pandas>=1.3.3",
+    "numpy>=1.21.2",
+    "matplotlib>=3.4.3",
+    "scikit-learn>=0.24.2"
+]
+python = ">=3.8"
